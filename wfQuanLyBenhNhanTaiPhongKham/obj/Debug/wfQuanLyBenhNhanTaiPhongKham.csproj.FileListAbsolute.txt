@@ -1,0 +1,16 @@
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\bin\Debug\wfQuanLyBenhNhanTaiPhongKham.exe.config
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\bin\Debug\wfQuanLyBenhNhanTaiPhongKham.exe
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\bin\Debug\wfQuanLyBenhNhanTaiPhongKham.pdb
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.csproj.AssemblyReference.cache
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.Form1.resources
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.Formbacsi.resources
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.Formbenhnhan.resources
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.Formloaithuoc.resources
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.Properties.Resources.resources
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.csproj.GenerateResource.cache
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.csproj.CoreCompileInputs.cache
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.exe
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.pdb
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.Formdonthuoc.resources
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.Formphieukham.resources
+D:\doAnTinnHoc\wfQuanLyBenhNhanTaiPhongKham\obj\Debug\wfQuanLyBenhNhanTaiPhongKham.FormXemChiTietPhieuKham.resources

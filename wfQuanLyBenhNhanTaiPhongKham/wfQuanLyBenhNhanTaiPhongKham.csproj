@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A327BFD6-013D-4BD5-9927-EC6F3895FD0A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>wfQuanLyBenhNhanTaiPhongKham</RootNamespace>
+    <AssemblyName>wfQuanLyBenhNhanTaiPhongKham</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="benhnhan.cs" />
+    <Compile Include="donThuoc.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formbacsi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formbacsi.Designer.cs">
+      <DependentUpon>Formbacsi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formbenhnhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formbenhnhan.Designer.cs">
+      <DependentUpon>Formbenhnhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formdonthuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formdonthuoc.Designer.cs">
+      <DependentUpon>Formdonthuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formloaithuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formloaithuoc.Designer.cs">
+      <DependentUpon>Formloaithuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formphieukham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formphieukham.Designer.cs">
+      <DependentUpon>Formphieukham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormXemChiTietPhieuKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXemChiTietPhieuKham.Designer.cs">
+      <DependentUpon>FormXemChiTietPhieuKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TruyCapDuLieu.cs" />
+    <Compile Include="ViewPhieuKham.cs" />
+    <Compile Include="XuLy.cs" />
+    <Compile Include="XuLyDonThuoc.cs" />
+    <Compile Include="XuLyPhieuKham.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formbacsi.resx">
+      <DependentUpon>Formbacsi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formbenhnhan.resx">
+      <DependentUpon>Formbenhnhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formdonthuoc.resx">
+      <DependentUpon>Formdonthuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formloaithuoc.resx">
+      <DependentUpon>Formloaithuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formphieukham.resx">
+      <DependentUpon>Formphieukham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormXemChiTietPhieuKham.resx">
+      <DependentUpon>FormXemChiTietPhieuKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1891.jpg_wh1200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-e-learning-medical-student-with-books-medicine-doctor-png-image_3605521.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\benhvien.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
